@@ -1,4 +1,37 @@
-"""Sorting Algorithm Visualizer"""
+"""
+============================================================
+Sorting Algorithm Visualizer — COMP9001 Final Project
+Author: Tiansheng Chen (560517309)
+============================================================
+
+>>> THIS IS THE MAIN SCRIPT — run with: python3 main.py <
+
+REQUIRES (all must be installed locally):
+    - Python 3.10+
+    - tkinter (bundled with Python on macOS/Windows)
+    - matplotlib
+    - numpy
+    - pygame-ce  (NOT pygame — main pygame package has no
+                  Python 3.14 wheel yet; use pygame-ce instead)
+
+INSTALL:
+    pip install matplotlib numpy pygame-ce
+
+HOW TO USE:
+    1. Run `python3 main.py`
+    2. Press any key on the splash screen to enter the main UI
+    3. Press PLAY to start the animation
+    4. Adjust SPEED / SIZE sliders, use PAUSE / RESET / SOUND
+
+NOTE TO TUTOR:
+    This is a GUI application using tkinter + matplotlib +
+    pygame-ce. It will NOT run inside Ed's environment.
+    Please run it locally.
+
+    Demo screenshots + writeup: see my Padlet post.
+    Source: https://github.com/tianshengchen1217-wq/sorting-visualizer
+============================================================
+"""
 import tkinter
 import random
 import matplotlib.pyplot as plt
