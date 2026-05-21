@@ -1,6 +1,6 @@
 # Sorting Algorithm Visualizer
 
-A cyberpunk-themed desktop application that animates how five sorting algorithms work step by step, side by side, with live comparison/swap counters and synchronized playback.
+A cyberpunk-themed desktop application that animates how four sorting algorithms work step by step, side by side, with live comparison/swap counters and synchronized playback.
 
 Built for COMP9001 Final Project.
 
